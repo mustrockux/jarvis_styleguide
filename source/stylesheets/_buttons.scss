@@ -7,3 +7,9 @@
 		background-color: #005073;
 	}
 }
+
+.btn-primary[disabled],
+.btn-primary[disabled]:hover {
+	background-color: #e1e3e4;
+	border-color: #e1e3e4;
+}
