@@ -13,3 +13,20 @@
 	background-color: #e1e3e4;
 	border-color: #e1e3e4;
 }
+.btn-default {
+	background-color: #00B287;
+	width: 136px;
+	height: 40px;
+	color: #fff;
+
+	&:hover {
+		background-color: #007357;
+		color: #fff;
+	}
+}
+
+.btn-default[disabled],
+.btn-default[disabled]:hover {
+	background-color: #e1e3e4;
+	border-color: #e1e3e4;
+}
